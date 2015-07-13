@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block all %}
+{% for to in to %}
+<h2>{{ to.onesitedemo_title }}</h2>
+    <p>{{ to.onesitedemo_text }}</p>
+    <span style="display: block; margin: 0 auto; width:50%; text-align: right;">{{ to.onesitedemo_date }}</span>
+
+{% endfor %}
+{% endblock %}
