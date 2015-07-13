@@ -3,6 +3,7 @@
 .idea/
 local.py
 settings.py
+settings/
 =======
 # Byte-compiled / optimized / DLL files
 __pycache__/
